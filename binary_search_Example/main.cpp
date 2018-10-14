@@ -3,7 +3,7 @@
 //  binary_search_Example
 //
 //  Created by Balachandhar on 2018-10-13.
-//  Copyright © 2018 Balachandhar. All rights reserved.
+//  Copyright © 2018 Balachandhar. 
 //
 
 #include <iostream>
