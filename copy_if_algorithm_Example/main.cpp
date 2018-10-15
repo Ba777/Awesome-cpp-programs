@@ -19,7 +19,7 @@ int main(int argc, const char * argv[]) {
     
     std::vector<int> myvec1(myvec.size());
     
-    auto it = std::copy_if(myvec.begin(), myvec.end(), myvec1.begin(), [](int i) {return !(i<0);});
+    std::vector<int>::iterator it = std::copy_if(myvec.begin(), myvec.end(), myvec1.begin(), [](int i) {return !(i<0);});
     myvec1.resize(std::distance(myvec1.begin(),it));  // shrink container to new size
 
     std::cout << "Myvec1 contains:";
