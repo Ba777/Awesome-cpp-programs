@@ -3,7 +3,7 @@
 //  copy_algorithm_Example
 //
 //  Created by Balachandhar on 2018-10-15.
-//  Copyright © 2018 Balachandhar. All rights reserved.
+//  Copyright © 2018 Balachandhar. 
 //
 
 #include <iostream>
