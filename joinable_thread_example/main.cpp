@@ -3,7 +3,7 @@
 //  joinable_thread_example
 //
 //  Created by Balachandhar on 2018-10-12.
-//  Copyright © 2018 Balachandhar. All rights reserved.
+//  Copyright © 2018 Balachandhar. 
 //
 
 #include <iostream>
