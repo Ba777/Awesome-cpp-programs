@@ -18,12 +18,12 @@ void pause_thread(int n) {
 
 int main(int argc, const char * argv[]) {
     
-    std::cout<<"Spawning and detaching 3 threads......"<<std::endl;
+    std::cout<<"Spawning and detaching 3 threads....."<<std::endl;
     std::thread(pause_thread,1).detach();
     std::thread(pause_thread,2).detach();
     std::thread(pause_thread,3).detach();
     
-    std::cout<<"The main thread will now wait for 10 seconds...."<<std::endl;
+    std::cout<<"The main thread will now wait for 10 seconds..."<<std::endl;
     pause_thread(10);
     return 0;
 }
